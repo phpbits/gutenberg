@@ -192,7 +192,7 @@ _Returns_
 
 <a name="getAllBlocks" href="#getAllBlocks">#</a> **getAllBlocks**
 
-Returns an array with all blocks; Equivalent to calling wp.data.select( 'core/editor' ).getBlocks();
+Returns an array with all blocks; Equivalent to calling wp.data.select( 'core/block-editor' ).getBlocks();
 
 _Returns_
 
