@@ -28,20 +28,9 @@
 		}
 	}
 
-	// Don't show the inserter until mousing over.
-	.block-editor-inserter__toggle:not([aria-expanded="true"]) {
-		opacity: 0;
-		transition: opacity 0.2s;
-		will-change: opacity;
-	}
-
 	&:hover {
 		.block-editor-inserter-with-shortcuts {
 			@include edit-post__fade-in-animation;
-		}
-
-		.block-editor-inserter__toggle {
-			opacity: 1;
 		}
 	}
 
