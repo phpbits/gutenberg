@@ -24,7 +24,6 @@ function DropdownMenu( {
 	label,
 	menuLabel,
 	position,
-	__unstableLabelPosition,
 	__unstableMenuClassName,
 	__unstablePopoverClassName,
 	__unstableToggleClassName,
@@ -67,7 +66,7 @@ function DropdownMenu( {
 						aria-haspopup="true"
 						aria-expanded={ isOpen }
 						label={ label }
-						labelPosition={ __unstableLabelPosition }
+						labelPosition={ position }
 						tooltip={ label }
 					>
 						{ ! icon && <span className="components-dropdown-menu__indicator" /> }
